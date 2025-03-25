@@ -30,7 +30,7 @@ luxury-shoe-landing-page/
 ## 🌐 Live Demo
 
 > **View the live page here:**  
-> [Luxury Shoe Landing Page Live](https://mjay-code-oss.github.io/luxury-shoe-landing-page)
+> [Luxury Shoe Landing Page Live](https://mjay-code-oss.github.io/luxury-shoe-landing-page/)
 
 ## 🚀 How to Clone and Run Locally
 
