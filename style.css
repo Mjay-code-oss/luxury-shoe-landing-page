@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f7f1e1;
+  color: #3a2c27;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: linear-gradient(90deg, #eecfd3 0%, #f7f1e1 100%);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.4s ease;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-size: 2.2rem;
+  color: #8c6e63;
+  font-weight: 700;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #3a2c27;
+  font-weight: 500;
+}
+
+.hero {
+  position: relative;
+  height: auto;
+  background: linear-gradient(180deg, #f7f1e1 0%, #eecfd3 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  overflow: visible;
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+.hero-shoe-img {
+  width: 300px;
+  max-width: 80%;
+  animation: fadeInUp 2s ease forwards;
+  margin-bottom: 1.5rem;
+}
+.wave-divider {
+    width:100%;
+    overflow:hidden;
+    line-height:0;
+}
+.wave-divider svg {
+transform:rotate(180deg);
+  display:block;
+  width: 100%;
+ height:auto;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2.5rem;
+  background-color: #d0b49f;
+  color: white;
+  padding: 0.8rem 2.5rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.cta-btn:hover {
+  background: linear-gradient(90deg, gold, #d0b49f);
+  color: #3a2c27;
+  box-shadow: 0 0 15px gold;
+}
+
+.categories {
+  padding: 60px 20px 20px;
+  text-align: center;
+}
+
+.category-tabs button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.category-tabs .active {
+  background-color: #bda27a;
+  color: white;
+}
+
+.collections-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 50px;
+}
+
+.shoe-card img {
+  width: 100%;
+  border-radius: 20px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  animation: float 4s ease-in-out infinite;
+}
+
+.shoe-card h3 {
+  font-family: "playfair display", serif;
+  color: #8c6e63;
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.shoe-card p {
+  color: #bda27a;
+  font-weight: bold;
+}
+
+.slider-section {
+  padding: 3rem 5%;
+  background: #eecfd3;
+  text-align: center;
+}
+
+.slider-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-family: "Playfair Display", serif;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 300px;
+  scroll-snap-align: center;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+footer {
+  padding: 2rem;
+  text-align: center;
+  background: #d0b49f;
+  color: #f7f1e1;
+  font-family: "playfair display", serif;
+  font-size: 1rem;
+}
